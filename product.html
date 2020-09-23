@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-white bg-primary text-center ">
+                <h2>Product Register</h2>
+            </div> <!-- end card-header-->
+            <div class="card-body bg-light ">
+                <form>
+                    <!--group#1-->
+                    <div class="form-group">
+                        <!--row#1-->
+                        <div class="row">
+                            <div class="col-2">
+                                <lebel>Product Name</lebel>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Name Required *</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- group#2 -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Product Code</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form-control">
+
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Code Required *</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- group#3 -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Product Cost</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="number" class="form-control">
+
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Cost Required *</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- group#4 -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Product Type</label>
+                            </div>
+                            <div class="col-6">
+                                <select class="form-control">
+                                    <option value="">-SELECT-</option>
+                                    <option value="Customer">Customer</option>
+                                    <option value="Vendor">Vendor</option>
+                                </select>
+
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Type Required *</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- group#5 -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Product Scale</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="checkbox" name="" id="">Small
+
+                                <input type="checkbox" name="" id="">Meduim
+                                <input type="checkbox" name="" id="">Large
+
+
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Port Required *</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- group#6 -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-2">
+                                <label>Product Stock</label>
+                            </div>
+                            <div class="col-6">
+                                <input type="radio" name="stock" id="" value="NA">Not Available
+                                <input type="radio" name="stock" id="" value="Available">Available
+
+
+                            </div>
+                            <div class="col-4">
+                                <span class="text-danger">Stock Required *</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- group#7-->
+                    <div class="form-group">
+                        <input type="submit" value="Add Product" class="btn btn-success"></div>
+                </form>
+
+            </div>
+            <!--end card-body-->
+            <div class="card-footer text-white text-center bg-success ">
+                &copy;copyright.All Right Reserved
+            </div>
+        </div>
+        <!--end card-->
+
+    </div>
+
+</body>
+
+</html>
